@@ -1,0 +1,159 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+h2 {
+	font-size: 2.2rem;
+}
+h3 {
+	font-size: 2rem;
+}
+p {
+	font-size: 1.5rem;
+	line-height: 1.3;
+	text-align: justify;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.3;
+	font-weight: 600;
+}
+hr {
+	background-color: #cca6c8;
+	margin-block: 1rem;
+}
+.active {
+	background-color: #cca6c8;
+	border-radius: 4px;
+	color: #fff;
+	padding: 0.2rem 0.4rem;
+}
+
+section {
+	margin-bottom: 3rem;
+}
+.nav-link {
+	transition: all 0.3s ease-in;
+}
+.nav-link:focus {
+	/* background-color: #cca6c8; */
+	color: #cca6c8;
+	border-bottom: 4px solid #cca6c8;
+	padding: 0.5rem;
+}
+.nav-link:hover {
+	border-bottom: 4px solid #cca6c8;
+	padding-bottom: 0.5rem;
+}
+.hero {
+	height: calc(100vh - 8rem);
+	margin-top: 9rem;
+	position: relative;
+	display: flex;
+	column-gap: 2rem;
+	justify-content: center;
+	align-items: flex-start;
+}
+.hero-image {
+	height: 100%;
+	flex: 2;
+}
+.hero-image img {
+	height: 100%;
+}
+.hero-text {
+	flex: 1;
+	padding-right: 1rem;
+}
+.hero-text h1,
+.hero-text p {
+	margin-bottom: 2rem;
+}
+.divider {
+	height: 0.5rem;
+	width: 20%;
+	/* margin-inline: auto; */
+	background-color: #cca6c8;
+	margin-bottom: 2rem;
+}
+.btn {
+	padding: 0.5rem 1rem;
+	background-color: #cca6c8;
+	border: none;
+	border-radius: 8px;
+	outline: none;
+	color: #fff;
+	transition: all 0.3s ease-in;
+}
+.btn:hover {
+	opacity: 0.7;
+	/* background-color: #fff; */
+	/* color: #cca6c8; */
+}
+.scroll-link {
+	position: absolute;
+	bottom: 1%;
+	right: 1%;
+	font-size: 2rem;
+	color: #cca6c8;
+	opacity: 0.6;
+}
+.home-subsection {
+	position: relative;
+	height: 30rem;
+	background: url(../public/images/pexels-jsme-mila-523821574-18459193.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.home-subsection h4 {
+	font-size: 2.8rem;
+	color: #fff;
+	text-align: center;
+	margin-inline: auto;
+	padding-block: 4rem;
+	max-width: 700px;
+	z-index: 200;
+}
+.home-subsection::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.3);
+}
+.about-hero {
+	background: url(../public/images/pexels-kampus-7551667.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.footer-link a,
+.social-link {
+	transition: all 0.5s ease-in-out;
+	padding-inline: 8px;
+}
+.footer-link a:hover,
+.social-link:hover {
+	opacity: 0.4;
+	background-color: white;
+	border-radius: 5px;
+}
