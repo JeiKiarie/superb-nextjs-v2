@@ -20,8 +20,8 @@ const About = () => {
 				<h2>At Superb Care Services,</h2>
 				<article className="about-info">
 					<p>
-						We provide reliable and affordable home health care services across
-						and around the South East.
+						We provide reliable and affordable home health care services for
+						clients across and around the South East.
 					</p>
 					<p>
 						As your trusted care provider since 2018, our carer/nursing staff
