@@ -12,71 +12,33 @@ import 'animate.css';
 import ImageTwo from '../public/images/pexels-kampus-7551661.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
-// import Image from 'next/image';
-// import { FaArrowDown } from 'react-icons/fa6';
-
-// import './globals.css';
 
 const Home = () => {
 	return (
 		<div className="main">
 			{/* Hero section */}
 
-			<section
-				className="hero"
-				// position={'relative'}
-				// paddingInline={'1rem'}
-				// marginTop={'8.5rem'}
-				// height={'calc(100vh - 9rem)'}
-			>
-				<div
-					className="hero-text"
-					// flexBasis="30%"
-					// maxWidth={'700px'}
-					// paddingInline={'1rem'}
-				>
+			<section className="hero">
+				<div className="hero-text">
 					<h1>Supported Living and Elderly Care</h1>
-					<div
-						className="divider"
-						// orientation="horizontal"
-						// height={'0.5rem'}
-						// width={'20%'}
-						// marginInline={'auto'}
-					/>
-					<p
-					// marginBottom={'2rem'}
-					// fontSize={'1.5rem'}
-					// as="p"
-					>
+					<div className="divider" />
+					<p>
 						We provide home quality care and carers for elderly people and
 						people who need fulltime support to cope with all kinds of physical
 						and health challenges in their day to day lives.
 					</p>
-					<button
-						className="btn"
-						// bg={'#cca6c8'}
-						// color={'#fff'}
-						// variant="ghost"
-					>
-						{/* <Link href="/services">Our Services</Link> */}
-					</button>
 				</div>
-				<div
-					className="hero-image"
-					// flexBasis="70%"
-				>
+				<div className="hero-image">
 					<Image
-						// width={700}
-						// height={700}
 						className="img"
 						src={HeroImg}
 						alt="hero"
 					/>
 				</div>
 
-				<div className="scroll-link animate__animated animate__slideInDown animate__infinite infinite">
+				{/* <div className="scroll-link animate__animated animate__slideInDown animate__infinite infinite">
 					<FaArrowDownLong />
-				</div>
+				</div> */}
 			</section>
 
 			{/* End of hero section */}

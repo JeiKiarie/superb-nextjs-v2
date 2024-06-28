@@ -151,10 +151,13 @@ section {
 	background: rgba(0, 0, 0, 0.3);
 }
 .about-hero {
-	background: url(../public/images/pexels-kampus-7551667.jpg);
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
+	/* height: 60vh; */
+	margin-top: 5rem;
+}
+.about-img {
+	height: 70vh;
+	object-fit: cover;
+	object-position: center;
 }
 .footer-link a,
 .social-link {
