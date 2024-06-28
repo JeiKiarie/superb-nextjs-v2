@@ -56,17 +56,23 @@ const Home = () => {
 			<Box
 				as="section"
 				marginInline={'auto'}
-				width={'80%'}
+				width={'100%'}
 				maxWidth={'1400px'}>
-				<Text
-					as="h2"
-					width={'80%'}
-					maxWidth={'1000px'}
-					marginInline={'auto'}
-					textAlign={'center'}>
-					Elderly care and supported living services provided by professional,
-					dedicated and committed carers
-				</Text>
+				<Box
+					padding={'2rem'}
+					width={'100%'}
+					bgColor={'#cca6c8'}
+					color={'#fff'}>
+					<Text
+						as="h2"
+						width={'80%'}
+						maxWidth={'1000px'}
+						marginInline={'auto'}
+						textAlign={'center'}>
+						Elderly care and supported living services provided by professional,
+						dedicated and committed carers
+					</Text>
+				</Box>
 				<Divider
 					orientation="horizontal"
 					height={'0.5rem'}
@@ -74,6 +80,8 @@ const Home = () => {
 					marginInline={'auto'}
 				/>
 				<Box
+					width={'80%'}
+					marginInline={'auto'}
 					boxShadow={'lg'}
 					padding={'2rem 3rem'}>
 					<Flex
