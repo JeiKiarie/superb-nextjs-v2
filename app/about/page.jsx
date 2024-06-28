@@ -16,15 +16,23 @@ const About = () => {
 					/>
 				</article>
 			</section>
-			<section className="about-info">
-				<p>
-					At Superb Care Services, we provide reliable and affordable home
-					health care services across and around the South East. As your trusted
-					care provider since 2018, our carer/nursing staff guarantee
-					personalized attention to all your health and related needs. We care
-					about all of our clients, and offer extensive care services to make
-					sure they feel as comfortable as possible.
-				</p>
+			<section className="about-section">
+				<h2>At Superb Care Services,</h2>
+				<article className="about-info">
+					<p>
+						We provide reliable and affordable home health care services across
+						and around the South East.
+					</p>
+					<p>
+						As your trusted care provider since 2018, our carer/nursing staff
+						guarantee personalized attention to all your health and related
+						needs.
+					</p>
+					<p>
+						We care about all of our clients, and offer extensive care services
+						to make sure they feel as comfortable as possible.
+					</p>
+				</article>
 				<div className="btn">
 					<Button>
 						<Link href="/contact">Contact Us</Link>
