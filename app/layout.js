@@ -1,8 +1,11 @@
 import { Inter } from 'next/font/google';
 import { Providers } from './providers';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v13-appRouter';
 import './globals.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import { ThemeProvider } from '@mui/material/styles';
+import theme from './theme';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,11 +19,15 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body>
-				<Providers>
-					<Navbar />
-					{children}
-					<Footer />
-				</Providers>
+				<AppRouterCacheProvider>
+					<ThemeProvider theme={theme}>
+						<Providers>
+							<Navbar />
+							{children}
+							<Footer />
+						</Providers>
+					</ThemeProvider>
+				</AppRouterCacheProvider>
 			</body>
 		</html>
 	);

@@ -1,7 +1,8 @@
-import { Box, Button, Flex, Link, Text } from '@chakra-ui/react';
+import { Box, Button, Flex, Text } from '@chakra-ui/react';
 import img1 from '../../public/images/AboutPage/SeniorCitizenExerciseClass.webp';
 import aboutHeroImg from '../../public/images/pexels-kampus-7551667.jpg';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const About = () => {
 	return (
@@ -24,7 +25,7 @@ const About = () => {
 					about all of our clients, and offer extensive care services to make
 					sure they feel as comfortable as possible.
 				</p>
-				<div>
+				<div className="btn">
 					<Button>
 						<Link href="/contact">Contact Us</Link>
 					</Button>
