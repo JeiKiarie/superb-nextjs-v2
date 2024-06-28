@@ -178,6 +178,35 @@ section {
 	justify-content: center;
 	align-items: center;
 }
+.faqs {
+	width: 100%;
+	/* background-color: #cca6c8; */
+}
+.faqs .section-title {
+	text-transform: capitalize;
+	text-align: center;
+	background-color: #cca6c8;
+	color: #fff;
+	padding: 2rem;
+}
+.faqs-container {
+	width: 80%;
+	margin-inline: auto;
+}
+.accordion {
+}
+.accordion-details,
+.accordion-summary {
+	/* width: 50%; */
+	/* color: whitesmoke; */
+}
+.accordion-summary h4 {
+	margin-inline: auto;
+}
+.accordion-details {
+	margin-inline: auto;
+	font-size: 1.5rem;
+}
 .footer-link a,
 .social-link {
 	transition: all 0.5s ease-in-out;
