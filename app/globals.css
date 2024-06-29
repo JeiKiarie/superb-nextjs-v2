@@ -180,7 +180,6 @@ section {
 }
 .faqs {
 	width: 100%;
-	/* background-color: #cca6c8; */
 }
 .faqs .section-title {
 	text-transform: capitalize;
@@ -194,14 +193,6 @@ section {
 	margin-inline: auto;
 }
 .accordion {
-}
-.accordion-details,
-.accordion-summary {
-	/* width: 50%; */
-	/* color: whitesmoke; */
-}
-.accordion-summary h4 {
-	margin-inline: auto;
 }
 .accordion-details {
 	margin-inline: auto;
