@@ -8,7 +8,7 @@ const Navbar = () => {
 	return (
 		<Flex
 			as="nav"
-			bg={'#fff'}
+			bgColor={'#fff'}
 			position="fixed"
 			left={0}
 			top={0}
@@ -19,7 +19,7 @@ const Navbar = () => {
 			align={'center'}
 			boxShadow="md"
 			paddingInline="1rem"
-			zIndex={10}>
+			zIndex={100}>
 			<Box>
 				<Flex
 					justifyContent={'center'}
