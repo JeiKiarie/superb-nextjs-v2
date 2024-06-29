@@ -1,18 +1,43 @@
 import { Box, Button, Flex, Text } from '@chakra-ui/react';
-import img1 from '../../public/images/AboutPage/SeniorCitizenExerciseClass.webp';
 import aboutHeroImg from '../../public/images/pexels-kampus-7551667.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
-import {
-	Accordion,
-	AccordionActions,
-	AccordionDetails,
-	AccordionSummary,
-	Typography,
-} from '@mui/material';
-import { MdOutlineExpandMore } from 'react-icons/md';
-import { ExpandMore } from '@mui/icons-material';
+// import {
+// 	Accordion,
+// 	AccordionActions,
+// 	AccordionDetails,
+// 	AccordionSummary,
+// 	Typography,
+// } from '@mui/material';
+import AccordionComponent from '../components/AccordionComponent';
 // import { MdExpandMore } from 'react-icons/md';
+
+const accordions = [
+	{
+		id: 1,
+		header: 'Do you offer live-in care?',
+		details: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+	impedit tenetur repellat. Maxime voluptatibus eius iure architecto
+	debitis placeat voluptatum error vitae saepe quasi totam quidem,
+	dignissimos eaque nobis vel!`,
+	},
+	{
+		id: 2,
+		header: 'How qualified are your carers?',
+		details: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+	impedit tenetur repellat. Maxime voluptatibus eius iure architecto
+	debitis placeat voluptatum error vitae saepe quasi totam quidem,
+	dignissimos eaque nobis vel!`,
+	},
+	{
+		id: 3,
+		header: 'Do I pay the carer directly?',
+		details: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+	impedit tenetur repellat. Maxime voluptatibus eius iure architecto
+	debitis placeat voluptatum error vitae saepe quasi totam quidem,
+	dignissimos eaque nobis vel!`,
+	},
+];
 
 const About = () => {
 	return (
@@ -54,71 +79,14 @@ const About = () => {
 					<h3>frequently asked questions</h3>
 				</div>
 				<div className="faqs-container">
-					<Accordion
-						className="accordion"
-						slotProps={{ transition: { unmountOnExit: true } }}>
-						<AccordionSummary
-							expandIcon={<ExpandMore sx={{ fontSize: '3rem' }} />}
-							sx={{}}
-							className="accordion-summary">
-							<Typography variant="h4">Do you offer live-in care?</Typography>
-						</AccordionSummary>
-						<AccordionDetails sx={{}}>
-							<Typography
-								variant="p"
-								className="accordion-details">
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-								Voluptates impedit tenetur repellat. Maxime voluptatibus eius
-								iure architecto debitis placeat voluptatum error, vitae saepe,
-								quasi totam quidem, dignissimos eaque nobis vel!
-							</Typography>
-						</AccordionDetails>
-						{/* <AccordionActions></AccordionActions> */}
-					</Accordion>
-					<Accordion
-						className="accordion"
-						slotProps={{ transition: { unmountOnExit: true } }}>
-						<AccordionSummary
-							expandIcon={<ExpandMore sx={{ fontSize: '3rem' }} />}
-							sx={{}}
-							className="accordion-summary">
-							<Typography variant="h4">
-								How qualified are your carers?
-							</Typography>
-						</AccordionSummary>
-						<AccordionDetails sx={{}}>
-							<Typography
-								variant="p"
-								className="accordion-details">
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-								Voluptates impedit tenetur repellat. Maxime voluptatibus eius
-								iure architecto debitis placeat voluptatum error, vitae saepe,
-								quasi totam quidem, dignissimos eaque nobis vel!
-							</Typography>
-						</AccordionDetails>
-						{/* <AccordionActions></AccordionActions> */}
-					</Accordion>
-					<Accordion
-						className="accordion"
-						slotProps={{ transition: { unmountOnExit: true } }}>
-						<AccordionSummary
-							expandIcon={<ExpandMore sx={{ fontSize: '3rem' }} />}
-							sx={{}}
-							className="accordion-summary">
-							<Typography variant="h4">Do I pay the carer directly?</Typography>
-						</AccordionSummary>
-						<AccordionDetails sx={{}}>
-							<Typography
-								variant="p"
-								className="accordion-details">
-								Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-								Voluptates impedit tenetur repellat. Maxime voluptatibus eius
-								iure architecto debitis placeat voluptatum error, vitae saepe,
-								quasi totam quidem, dignissimos eaque nobis vel!
-							</Typography>
-						</AccordionDetails>
-						{/* <AccordionActions></AccordionActions> */}
-					</Accordion>
+					{accordions.map((accordion) => (
+						<AccordionComponent
+							key={accordion.id}
+							accordions={accordions}
+							header={accordion.header}
+							details={accordion.details}
+						/>
+					))}
 				</div>
 			</section>
 		</main>
