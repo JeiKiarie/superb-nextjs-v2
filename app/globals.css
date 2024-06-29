@@ -64,7 +64,6 @@ section {
 	max-width: 1600px;
 	margin-inline: auto;
 }
-
 .hero-text {
 	background-color: #cca6c8;
 	color: #fff;
@@ -116,6 +115,7 @@ section {
 	position: relative;
 	height: 30rem;
 	background: url(../public/images/pexels-jsme-mila-523821574-18459193.jpg);
+	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
