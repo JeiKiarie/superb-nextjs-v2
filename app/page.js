@@ -19,7 +19,10 @@ const Home = () => {
 			{/* Hero section */}
 
 			<section className="hero">
-				<div className="hero-text">
+				<div
+					className="hero-text
+					animate__animated
+					animate__slideInDown">
 					<h1>Supported Living and Elderly Care</h1>
 					<div className="divider" />
 					<p>
@@ -28,7 +31,10 @@ const Home = () => {
 						and health challenges in their day to day lives.
 					</p>
 				</div>
-				<div className="hero-image">
+				<div
+					className="hero-image
+					animate__animated
+					animate__slideInUp">
 					<Image
 						className="img"
 						src={HeroImg}
