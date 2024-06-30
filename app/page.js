@@ -21,11 +21,19 @@ const Home = () => {
 			<section className="hero">
 				<div
 					className="hero-text
-					animate__animated
-					animate__slideInDown">
-					<h1>Supported Living and Elderly Care</h1>
-					<div className="divider" />
-					<p>
+					">
+					<h1
+						className="animate__animated
+					animate__slideInRight">
+						Supported Living and Elderly Care
+					</h1>
+					<div
+						className="divider animate__animated
+					animate__fadeIn"
+					/>
+					<p
+						className="animate__animated
+					animate__slideInLeft">
 						We provide home quality care and carers for elderly people and
 						people who need fulltime support to cope with all kinds of physical
 						and health challenges in their day to day lives.
