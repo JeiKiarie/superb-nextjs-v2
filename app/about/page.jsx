@@ -15,27 +15,25 @@ import AccordionComponent from '../components/AccordionComponent';
 const accordions = [
 	{
 		id: 1,
-		header: 'Do you offer live-in care?',
-		details: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-	impedit tenetur repellat. Maxime voluptatibus eius iure architecto
-	debitis placeat voluptatum error vitae saepe quasi totam quidem,
-	dignissimos eaque nobis vel!`,
+		header:
+			'What sets your facility apart from others, and why should I choose your services for my loved one?',
+		details: `At Superb Care Services Ltd, we pride ourselves on our commitment to excellence, compassion, and personalized care. What sets us apart is our dedicated team of caregivers, our comprehensive range of services and amenities, and our unwavering dedication to meeting the unique needs and preferences of each individual under our care. We understand that choosing the `,
 	},
 	{
 		id: 2,
-		header: 'How qualified are your carers?',
-		details: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-	impedit tenetur repellat. Maxime voluptatibus eius iure architecto
-	debitis placeat voluptatum error vitae saepe quasi totam quidem,
-	dignissimos eaque nobis vel!`,
+		header: 'What amenities and services are included in your care packages?',
+		details: `Our care packages include a wide range of amenities and services aimed at enhancing the quality of life for our residents. These may include assistance with activities of daily living, medication management, housekeeping, laundry service, transportation, nutritious meals and snacks, social and recreational activities, wellness programs, and access to on-site healthcare services.`,
 	},
 	{
 		id: 3,
-		header: 'Do I pay the carer directly?',
-		details: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates
-	impedit tenetur repellat. Maxime voluptatibus eius iure architecto
-	debitis placeat voluptatum error vitae saepe quasi totam quidem,
-	dignissimos eaque nobis vel!`,
+		header: 'What amenities and services are included in your care packages?',
+		details: `Our care packages include a wide range of amenities and services aimed at enhancing the quality of life for our residents. These may include assistance with activities of daily living (ADLs), medication management, housekeeping, laundry service, transportation, nutritious meals and snacks, social and recreational activities, wellness programs, and access to on-site healthcare services.`,
+	},
+	{
+		id: 4,
+		header:
+			'What levels of care do you provide, and how do you determine which one is right for my loved one?',
+		details: `We offer a continuum of care services, including assisted living, memory care, skilled nursing care, respite care, and hospice care. Our experienced team conducts comprehensive assessments to determine the level of care needed for each individual, taking into account factors such as medical needs, cognitive abilities, mobility, and personal preferences. Through collaborative care planning, we work closely with residents and their families to develop personalized care plans that meet their unique needs and goals.`,
 	},
 ];
 
@@ -77,6 +75,14 @@ const About = () => {
 			<section className="faqs">
 				<div className="section-title">
 					<h3>frequently asked questions</h3>
+					<p>
+						Have questions about our services, amenities, costs, insurance
+						coverage, or anything else? We've got answers. Explore our
+						comprehensive FAQ section to find information on a wide range of
+						topics, or reach out to our friendly team for personalized
+						assistance. We're here to help you make informed decisions and
+						provide peace of mind every step of the way.
+					</p>
 				</div>
 				<div className="faqs-container">
 					{accordions.map((accordion) => (
