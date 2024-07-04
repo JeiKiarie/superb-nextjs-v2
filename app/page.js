@@ -13,6 +13,36 @@ import ImageTwo from '../public/images/pexels-kampus-7551661.jpg';
 import Image from 'next/image';
 import Link from 'next/link';
 
+const services = [
+	{
+		title: 'Skilled Nursing Care',
+		icon: LiaUserNurseSolid,
+		text: `Our skilled nursing services are delivered by a
+		multidisciplinary team of healthcare professionals dedicated to
+		meeting the complex medical needs of our residents.`,
+	},
+	{
+		title: 'Assisted Living',
+		icon: MdOutlineAssistWalker,
+		text: `Our assisted living communities are carefully designed to promote independence and well-being while offering personalized assistance with daily tasks.`,
+	},
+	{
+		title: 'Memory Care',
+		icon: LiaUserNurseSolid,
+		text: `Our memory care program provides a safe and secure environment where residents receive specialized care tailored to their cognitive needs.`,
+	},
+	{
+		title: 'Respite Care',
+		icon: LiaUserNurseSolid,
+		text: `Our respite care services offer temporary relief for caregivers while ensuring that their loved ones receive the highest standard of care in a welcoming and supportive setting.`,
+	},
+	{
+		title: 'Hospice Care',
+		icon: LiaUserNurseSolid,
+		text: `Our holistic approach focuses on pain management, symptom control, and emotional support, allowing residents to live their remaining days with dignity and peace.`,
+	},
+];
+
 const Home = () => {
 	return (
 		<div className="main">
@@ -100,45 +130,28 @@ const Home = () => {
 					padding={'2rem 3rem'}>
 					<Flex
 						gap={'2rem'}
-						justifyContent={'space-between'}>
-						<Flex
-							flexDirection={'column'}
-							justifyContent={'start'}
-							gap={'2rem'}
-							alignItems={'center'}>
-							<Box
-								padding={'0.4rem'}
-								color={'#cca6c8'}>
-								<LiaUserNurseSolid fontSize="6rem" />
-							</Box>
+						justifyContent={'space-between'}
+						flexWrap={'wrap'}>
+						{services.map((service) => (
+							<Flex
+								key={service.title}
+								flexDirection={'column'}
+								justifyContent={'start'}
+								gap={'2rem'}
+								flexBasis={'calc(50% - 2rem)'}
+								alignItems={'center'}>
+								<Box
+									padding={'0.4rem'}
+									color={'#cca6c8'}>
+									{<service.icon fontSize={'6rem'} />}
+								</Box>
 
-							<Text as={'h3'}>Skilled Nursing Care</Text>
-							<Text as="p">
-								Our skilled nursing services are delivered by a
-								multidisciplinary team of healthcare professionals dedicated to
-								meeting the complex medical needs of our residents.
-							</Text>
-						</Flex>
-						<Flex
-							flexDirection={'column'}
-							justifyContent={'start'}
-							gap={'2rem'}
-							alignItems={'center'}>
-							<Box
-								padding={'0.4rem'}
-								color={'#cca6c8'}>
-								<MdAssistWalker fontSize={'6rem'} />
-							</Box>
-
-							<Text as={'h3'}>Assisted Living</Text>
-							<Text as="p">
-								Our assisted living communities are carefully designed to
-								promote independence and well-being while offering personalized
-								assistance with daily tasks.
-							</Text>
-						</Flex>
-						<Text as="p"></Text>
+								<Text as={'h3'}>{service.title}</Text>
+								<Text as="p">{service.text}</Text>
+							</Flex>
+						))}
 					</Flex>
+
 					<Box
 						textAlign={'center'}
 						marginTop={'2rem'}>
@@ -150,8 +163,6 @@ const Home = () => {
 					</Box>
 				</Box>
 			</Box>
-
-			{/* End of 3rd section */}
 		</div>
 	);
 };
