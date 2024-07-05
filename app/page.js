@@ -126,12 +126,7 @@ const Home = () => {
 						dedicated and committed carers
 					</Text>
 				</Box>
-				<Divider
-					orientation="horizontal"
-					height={'0.5rem'}
-					width={'20%'}
-					marginInline={'auto'}
-				/>
+
 				<Box
 					width={'80%'}
 					marginInline={'auto'}
