@@ -66,11 +66,14 @@ const About = () => {
 						to make sure they feel as comfortable as possible.
 					</p>
 				</article>
-				<div className="btn">
-					<Button>
-						<Link href="/contact">Contact Us</Link>
-					</Button>
-				</div>
+				{/* <div> */}
+				<Button
+					className="btn"
+					marginInline={'auto'}
+					color={'#fff'}>
+					<Link href="/contact">Contact Us</Link>
+				</Button>
+				{/* </div> */}
 			</section>
 			<section className="faqs">
 				<div className="section-title">

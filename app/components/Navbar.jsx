@@ -45,7 +45,8 @@ const Navbar = () => {
 			<Box color="green.600">
 				<Flex
 					gap="3rem"
-					color="#51649F"
+					// color="#51649F"
+					color="#fff"
 					fontSize="1.5rem">
 					<Text>
 						<Link
