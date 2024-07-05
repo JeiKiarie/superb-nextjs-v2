@@ -77,10 +77,10 @@ const About = () => {
 					<h3>frequently asked questions</h3>
 					<p>
 						Have questions about our services, amenities, costs, insurance
-						coverage, or anything else? We've got answers. Explore our
+						coverage, or anything else? We have the answers. Explore our
 						comprehensive FAQ section to find information on a wide range of
 						topics, or reach out to our friendly team for personalized
-						assistance. We're here to help you make informed decisions and
+						assistance. We are here to help you make informed decisions and
 						provide peace of mind every step of the way.
 					</p>
 				</div>

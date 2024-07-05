@@ -17,8 +17,8 @@ const Services = () => {
 					<h1>Various types of care</h1>
 					<div className="divider"></div>
 					<p>
-						At Superb Care Services Ltd, we're not just a place where seniors
-						reside; we're a community dedicated to providing a nurturing and
+						At Superb Care Services Ltd, we are not just a place where seniors
+						reside; we are a community dedicated to providing a nurturing and
 						enriching environment for our residents. With a deep understanding
 						of the unique needs and challenges that come with aging, we offer a
 						range of comprehensive services aimed at enhancing the quality of
@@ -67,7 +67,7 @@ const Services = () => {
 							/>
 						</div>
 						<p>
-							Alzheimer's disease and other forms of dementia can present
+							Alzheimers disease and other forms of dementia can present
 							significant challenges for both seniors and their families. Our
 							memory care program provides a safe and secure environment where
 							residents receive specialized care tailored to their cognitive
@@ -122,7 +122,7 @@ const Services = () => {
 							/>
 						</div>
 						<p>
-							During life's final chapter, our hospice care team provides
+							During the final chapter of life, our hospice care team provides
 							compassionate support and comfort to individuals with terminal
 							illnesses and their families. Our holistic approach focuses on
 							pain management, symptom control, and emotional support, allowing
