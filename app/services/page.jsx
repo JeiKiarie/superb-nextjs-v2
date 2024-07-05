@@ -37,7 +37,7 @@ const Services = () => {
 			</section>
 			<section className="services-section">
 				<div className="services-container">
-					<h2>Services available include:</h2>
+					<h2>Services available include;</h2>
 					<div className="divider"></div>
 					<article className="single-service">
 						<div className="single-service-header">
