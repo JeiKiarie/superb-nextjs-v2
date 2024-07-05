@@ -44,6 +44,7 @@ const Services = () => {
 							<h3>Assisted Living</h3>
 							<Image
 								src={assistedLivingImg}
+								alt=""
 								className="single-service-header-img"
 							/>
 						</div>
@@ -61,6 +62,7 @@ const Services = () => {
 							<h3>Memory Care</h3>
 							<Image
 								src={memoryCareImg}
+								alt=""
 								className="single-service-header-img"
 							/>
 						</div>
@@ -79,6 +81,7 @@ const Services = () => {
 							<h3>Respite Care</h3>
 							<Image
 								src={respiteCareImg}
+								alt=""
 								className="single-service-header-img"
 							/>
 						</div>
@@ -96,6 +99,7 @@ const Services = () => {
 							<h3>Skilled Nursing Care</h3>
 							<Image
 								src={skilledNursingImg}
+								alt=""
 								className="single-service-header-img"
 							/>
 						</div>
@@ -113,6 +117,7 @@ const Services = () => {
 							<h3>Hospice Care</h3>
 							<Image
 								src={hospiceCareImg}
+								alt=""
 								className="single-service-header-img"
 							/>
 						</div>
