@@ -1,10 +1,10 @@
 import { Box } from '@chakra-ui/react';
-import servicesHeroImg from '@public/images/pexels-kampus-7551661.jpg';
-import memoryCareImg from '@public/images/pexels-jsme-mila-523821574-18459206.jpg';
-import assistedLivingImg from '@public/images/raychan-yk7F8bdD0eU-unsplash.jpg';
-import respiteCareImg from '@public/images/pexels-olly-3768146.jpg';
-import skilledNursingImg from '@public/images/pexels-rdne-6129159.jpg';
-import hospiceCareImg from '@public/images/ai-generated-8299432_1280.jpg';
+import servicesHeroImg from '../../public/images/pexels-kampus-7551661.jpg';
+import memoryCareImg from '../../public/images/pexels-jsme-mila-523821574-18459206.jpg';
+import assistedLivingImg from '../../public/images/raychan-yk7F8bdD0eU-unsplash.jpg';
+import respiteCareImg from '../../public/images/pexels-olly-3768146.jpg';
+import skilledNursingImg from '../../public/images/pexels-rdne-6129159.jpg';
+import hospiceCareImg from '../../public/images/ai-generated-8299432_1280.jpg';
 import Image from 'next/image';
 import { MdAssistWalker } from 'react-icons/md';
 import { LiaUserNurseSolid } from 'react-icons/lia';
