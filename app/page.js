@@ -5,6 +5,10 @@ import { FaUserNurse } from 'react-icons/fa6';
 import { MdOutlineAssistWalker } from 'react-icons/md';
 import { MdAssistWalker } from 'react-icons/md';
 import { LiaUserNurseSolid } from 'react-icons/lia';
+import { BiBrain } from 'react-icons/bi';
+import { LuCalendarClock } from 'react-icons/lu';
+import { TbMoodPuzzled } from 'react-icons/tb';
+import { GiPeaceDove } from 'react-icons/gi';
 // import { HiChevronDoubleDown } from 'react-icons/hi';
 import { FaArrowDownLong } from 'react-icons/fa6';
 import { Box, Flex, Text, Divider, Button, Icon } from '@chakra-ui/react';
@@ -28,17 +32,17 @@ const services = [
 	},
 	{
 		title: 'Memory Care',
-		icon: LiaUserNurseSolid,
+		icon: TbMoodPuzzled,
 		text: `Our memory care program provides a safe and secure environment where residents receive specialized care tailored to their cognitive needs.`,
 	},
 	{
 		title: 'Respite Care',
-		icon: LiaUserNurseSolid,
+		icon: LuCalendarClock,
 		text: `Our respite care services offer temporary relief for caregivers while ensuring that their loved ones receive the highest standard of care in a welcoming and supportive setting.`,
 	},
 	{
 		title: 'Hospice Care',
-		icon: LiaUserNurseSolid,
+		icon: GiPeaceDove,
 		text: `Our holistic approach focuses on pain management, symptom control, and emotional support, allowing residents to live their remaining days with dignity and peace.`,
 	},
 ];
