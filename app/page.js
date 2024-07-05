@@ -19,6 +19,7 @@ import Link from 'next/link';
 
 const services = [
 	{
+		id: 1,
 		title: 'Skilled Nursing Care',
 		icon: LiaUserNurseSolid,
 		text: `Our skilled nursing services are delivered by a
@@ -26,21 +27,25 @@ const services = [
 		meeting the complex medical needs of our residents.`,
 	},
 	{
+		id: 2,
 		title: 'Assisted Living',
 		icon: MdOutlineAssistWalker,
 		text: `Our assisted living communities are carefully designed to promote independence and well-being while offering personalized assistance with daily tasks.`,
 	},
 	{
+		id: 3,
 		title: 'Memory Care',
 		icon: TbMoodPuzzled,
 		text: `Our memory care program provides a safe and secure environment where residents receive specialized care tailored to their cognitive needs.`,
 	},
 	{
+		id: 4,
 		title: 'Respite Care',
 		icon: LuCalendarClock,
 		text: `Our respite care services offer temporary relief for caregivers while ensuring that their loved ones receive the highest standard of care in a welcoming and supportive setting.`,
 	},
 	{
+		id: 5,
 		title: 'Hospice Care',
 		icon: GiPeaceDove,
 		text: `Our holistic approach focuses on pain management, symptom control, and emotional support, allowing residents to live their remaining days with dignity and peace.`,
@@ -138,7 +143,7 @@ const Home = () => {
 						flexWrap={'wrap'}>
 						{services.map((service) => (
 							<Flex
-								key={service.title}
+								key={service.id}
 								flexDirection={'column'}
 								justifyContent={'start'}
 								gap={'2rem'}

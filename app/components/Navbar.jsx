@@ -71,8 +71,8 @@ const Navbar = () => {
 					<Text>
 						<Link
 							href="contact"
-							className="nav-link">
-							Contact
+							className="contact-link">
+							Contact Us
 						</Link>
 					</Text>
 				</Flex>
