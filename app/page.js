@@ -128,7 +128,7 @@ const Home = () => {
 				</Box>
 
 				<Box
-					width={'80%'}
+					width={'85%'}
 					marginInline={'auto'}
 					boxShadow={'lg'}
 					padding={'2rem 3rem'}>
@@ -151,7 +151,11 @@ const Home = () => {
 								</Box>
 
 								<Text as={'h3'}>{service.title}</Text>
-								<Text as="p">{service.text}</Text>
+								<Text
+									as="p"
+									textAlign={'justify'}>
+									{service.text}
+								</Text>
 							</Flex>
 						))}
 					</Flex>
