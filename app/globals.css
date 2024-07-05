@@ -56,8 +56,8 @@ section {
 nav {
 	background: linear-gradient(
 		to right,
-		rgb(255, 255, 255) 35%,
-		rgb(204, 166, 200) 65%
+		rgb(255, 255, 255) 25%,
+		/* rgb(249, 248, 250) 35%, */ rgb(204, 166, 200) 75%
 	);
 }
 .nav-link {
