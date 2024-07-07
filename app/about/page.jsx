@@ -58,7 +58,7 @@ const About = () => {
 				<h2>Let us take care of your loved one</h2>
 				<article className="about-info">
 					<p>
-						At Superb Care Services, we provide reliable and affordable health
+						At Superb Care Services, we provide reliable and affordable live-in
 						care services for clients across and around the South East.
 					</p>
 					<p>
