@@ -64,7 +64,8 @@ const Home = () => {
 					<h1
 						className="animate__animated
 					animate__slideInRight">
-						Supported Living and Elderly Care
+						Supported Living and Elderly Care. Bringing Compassionate Care to
+						Your Home.
 					</h1>
 					<div
 						className="divider animate__animated
@@ -73,9 +74,11 @@ const Home = () => {
 					<p
 						className="animate__animated
 					animate__slideInLeft">
-						We provide home quality care and carers for elderly people and
-						people who need fulltime support to cope with all kinds of physical
-						and health challenges in their day to day lives.
+						We provide quality care for elderly people and people who need
+						fulltime support to cope with all kinds of physical and health
+						challenges in their day to day lives. Our mission is to provide
+						exceptional live-in care services that enable you or your loved ones
+						to live safely and comfortably in the place you love most — home.
 					</p>
 				</div>
 				<div
@@ -100,6 +103,9 @@ const Home = () => {
 			<section className="home-subsection">
 				<h4>
 					Reliable and affordable home health care services in the South East.
+					Customized care plans tailored to your specific situation, ensuring
+					that you receive the support you need in the most comfortable and
+					effective way possible.
 				</h4>
 			</section>
 
@@ -122,8 +128,11 @@ const Home = () => {
 						maxWidth={'1000px'}
 						marginInline={'auto'}
 						textAlign={'center'}>
-						Elderly care and supported living services provided by professional,
-						dedicated and committed carers
+						Elderly care and supported living services. With our team of
+						experienced and compassionate caregivers, we offer personalized
+						live-in care services tailored to meet all unique needs, ensuring
+						that you receive the support you need in the most comfortable and
+						effective way possible.
 					</Text>
 				</Box>
 

@@ -14,22 +14,30 @@ const Services = () => {
 		<main>
 			<section className="services-header">
 				<div className="services-info">
-					<h1>Various types of care</h1>
-					<div className="divider"></div>
-					<p>
-						At Superb Care Services Ltd, we are not just a place where seniors
-						reside; we are a community dedicated to providing a nurturing and
-						enriching environment for our residents. With a deep understanding
-						of the unique needs and challenges that come with aging, we offer a
-						range of comprehensive services aimed at enhancing the quality of
-						life for every individual under our care.
+					<h1
+						className="animate__animated
+					animate__slideInRight">
+						Various types of care. Providing comfort and care in your own home.
+					</h1>
+					<div
+						className="divider animate__animated
+					animate__fadeIn"></div>
+					<p
+						className="animate__animated
+					animate__slideInLeft">
+						We are a community dedicated to providing a nurturing and enriching
+						environment for our clients. With a deep understanding of the unique
+						needs and challenges that come with aging, we offer a range of
+						comprehensive services aimed at enhancing the quality of life for
+						every individual under our care.
 					</p>
 				</div>
 			</section>
 			<section className="services-img">
 				<article>
 					<Image
-						className="services-img"
+						className="services-img animate__animated
+						animate__slideInUp"
 						src={servicesHeroImg}
 						alt="Eldery man with carer"
 					/>
@@ -49,12 +57,16 @@ const Services = () => {
 							/>
 						</div>
 						<p>
-							Our assisted living communities are carefully designed to promote
-							independence and well-being while offering personalized assistance
-							with daily tasks. From helping residents with grooming and
-							medication management to providing support with mobility and
-							transportation, our compassionate caregivers are here to lend a
-							helping hand whenever needed.
+							We understand that home is where the heart is. Our live-in
+							services are designed to bring the highest quality of care
+							directly to your doorstep, ensuring you or your loved ones can
+							enjoy the comfort and familiarity of home while receiving the
+							support needed.Our assisted living communities are carefully
+							designed to promote independence and well-being while offering
+							personalized assistance with daily tasks. From helping residents
+							with grooming and medication management to providing support with
+							mobility and transportation, our compassionate caregivers are here
+							to lend a helping hand whenever needed.
 						</p>
 					</article>
 					<article className="single-service">
