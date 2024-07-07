@@ -28,25 +28,25 @@ const services = [
 		id: 1,
 		title: 'Personal Care',
 		icon: MdHealthAndSafety,
-		text: `Our personal care services are designed to assist with daily activities, ensuring that clients can maintain their independence and dignity.`,
+		text: `Our personal care services are designed to assist with daily activities, ensuring that clients can maintain their independence and dignity. Our caregivers assist with such activities of daily living as bathing, dressing, grooming, and mobility.`,
 	},
 	{
 		id: 2,
 		title: 'Household Assistance',
 		icon: GiBroom,
-		text: `We take care of household chores to create a clean, safe, and comfortable living environment.`,
+		text: `We take care of household chores to create a clean, safe, and comfortable living environment, ie, light housekeeping, laundry, meal preparation, and grocery shopping.`,
 	},
 	{
 		id: 3,
 		title: 'Companionship',
 		icon: FaPeopleGroup,
-		text: `We provide companionship to combat loneliness and enhance quality of life.`,
+		text: `We provide companionship to combat loneliness and enhance quality of life. Social interaction, emotional support, accompaniment to appointments, and help in engaging in hobbies are some of the aspects of companionship that our carers are trained to give.`,
 	},
 	{
 		id: 4,
 		title: 'Specialized Care',
 		icon: BiFirstAid,
-		text: `We offer specialized care for those with specific health conditions or recovery needs.`,
+		text: `We offer specialised care for those with specific health conditions or recovery needs including Dementia and Alzheimer’s care, post-surgery and rehabilitation support, as well as palliative and end-of-life care.`,
 	},
 
 	{
@@ -149,7 +149,6 @@ const Home = () => {
 					Customized care plans tailored to your specific situation.
 				</h4>
 			</section>
-
 			{/* End of 2nd section */}
 
 			{/* 3rd section */}

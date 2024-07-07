@@ -23,7 +23,11 @@ const AccordionComponent = ({ accordions, header, details }) => {
 				<AccordionSummary
 					expandIcon={<ExpandMore sx={{ fontSize: '3rem' }} />}
 					className="accordion-summary">
-					<Typography variant="h4">{header}</Typography>
+					<Typography
+						variant="h4"
+						fontWeight={'bold'}>
+						{header}
+					</Typography>
 				</AccordionSummary>
 				<AccordionDetails>
 					<Typography

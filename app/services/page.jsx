@@ -99,11 +99,11 @@ const Services = () => {
 						</div>
 						<p>
 							Caregiving can be demanding, and everyone deserves a break now and
-							then. Our respite care services offer temporary relief for
-							caregivers while ensuring that their loved ones receive the
-							highest standard of care in a welcoming and supportive setting.
-							Whether for a few days, weeks, or longer, families can trust that
-							their loved ones are in capable and caring hands.
+							then. Our respite care services offer temporary relief for care
+							givers while ensuring that their loved ones receive the highest
+							standard of care in a welcoming and supportive setting. Whether
+							for a few days, weeks, or longer, families can trust that their
+							loved ones are in capable and caring hands.
 						</p>
 					</artice>
 					<article className="single-service">
