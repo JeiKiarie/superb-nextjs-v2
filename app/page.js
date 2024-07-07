@@ -103,9 +103,7 @@ const Home = () => {
 			<section className="home-subsection">
 				<h4>
 					Reliable and affordable home health care services in the South East.
-					Customized care plans tailored to your specific situation, ensuring
-					that you receive the support you need in the most comfortable and
-					effective way possible.
+					Customized care plans tailored to your specific situation.
 				</h4>
 			</section>
 
@@ -129,7 +127,7 @@ const Home = () => {
 						marginInline={'auto'}
 						textAlign={'center'}>
 						Elderly care and supported living services. With our team of
-						experienced and compassionate caregivers, we offer personalized
+						experienced and compassionate caregivers, we offer personalized, customised
 						live-in care services tailored to meet all unique needs, ensuring
 						that you receive the support you need in the most comfortable and
 						effective way possible.
