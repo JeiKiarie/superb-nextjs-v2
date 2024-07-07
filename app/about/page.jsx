@@ -87,7 +87,7 @@ const About = () => {
 			</section>
 			<Box boxShadow={'lg'}>
 				<section className="our-mission">
-					<h2>Our Mission</h2>
+					<h2>Mission</h2>
 					<div className="divider"></div>
 					<article className="mission">
 						<h3>
