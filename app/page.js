@@ -1,5 +1,4 @@
-import HeroImg from '../public/images/pexels-olly-3768146.png';
-// import HeroImg from '../public/images/pexels-olly-3791664.png';
+import HeroImg from '../public/images/pexels-olly-3791664.png';
 
 import { FaUserNurse } from 'react-icons/fa6';
 import { MdOutlineAssistWalker } from 'react-icons/md';
