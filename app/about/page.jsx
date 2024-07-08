@@ -51,12 +51,13 @@ const values = [
 const accordions = [
 	{
 		id: 1,
-		header: 'Why choose your live-in services?',
+		header: 'Why choose your live-in care services?',
 		details: `Our dedicated caregivers provide round-the-clock assistance, ensuring safety and comfort at all times. Whether it’s help with daily activities, medical needs, or companionship, we are here to support you every step of the way.`,
 	},
 	{
 		id: 2,
-		header: 'What sets your live-in services establishment apart from others?',
+		header:
+			'What sets your live-in care services establishment apart from others?',
 		details: `At Superb Care Services Ltd, we pride ourselves on our commitment to excellence, compassion, and personalized care. What sets us apart is our dedicated team of caregivers, our comprehensive range of services and amenities, and our unwavering dedication to meeting the unique needs and preferences of each individual under our care.`,
 	},
 	{

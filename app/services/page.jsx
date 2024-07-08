@@ -57,7 +57,7 @@ const Services = () => {
 							/>
 						</div>
 						<p>
-							We understand that home is where the heart is. Our live-in
+							We understand that home is where the heart is. Our live-in care
 							services are designed to bring the highest quality of care
 							directly to your doorstep, ensuring you or your loved ones can
 							enjoy the comfort and familiarity of home while receiving the
