@@ -1,5 +1,5 @@
 import { Box, Button, Flex, Text } from '@chakra-ui/react';
-import aboutHeroImg from '../../public/images/pexels-kampus-7551667 - optimised.jpg';
+import aboutHeroImg from '../../public/images/pexels-kampus-7551667.png';
 import Image from 'next/image';
 import Link from 'next/link';
 

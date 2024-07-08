@@ -1,4 +1,4 @@
-import HeroImg from '../public/images/pexels-olly-3791664 - optimised.jpg';
+import HeroImg from '../public/images/pexels-olly-3791664.png';
 // import HeroImg from '../public/images/HomePage/HeroImg.webp';
 
 import { FaUserNurse } from 'react-icons/fa6';
