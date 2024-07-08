@@ -4,7 +4,7 @@ import memoryCareImg from '../../public/images/pexels-jsme-mila-523821574-184592
 import assistedLivingImg from '../../public/images/raychan-yk7F8bdD0eU-unsplash - optimised.jpg';
 import respiteCareImg from '../../public/images/pexels-olly-3768146 - optimised.jpg';
 import skilledNursingImg from '../../public/images/pexels-rdne-6129159 - optimised.jpg';
-import hospiceCareImg from '../../public/images/ai-generated-8299432_1280 - optimised.jpg';
+import hospiceCareImg from '../../public/images/ai-generated-8299432_1280-optimised.jpg';
 import Image from 'next/image';
 import { MdAssistWalker } from 'react-icons/md';
 import { LiaUserNurseSolid } from 'react-icons/lia';
