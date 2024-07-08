@@ -61,7 +61,7 @@ const Services = () => {
 							services are designed to bring the highest quality of care
 							directly to your doorstep, ensuring you or your loved ones can
 							enjoy the comfort and familiarity of home while receiving the
-							support needed.Our assisted living communities are carefully
+							support needed. Our assisted living communities are carefully
 							designed to promote independence and well-being while offering
 							personalized assistance with daily tasks. From helping residents
 							with grooming and medication management to providing support with
