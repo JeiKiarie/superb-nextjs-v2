@@ -1,4 +1,4 @@
-import HeroImg from '../public/images/pexels-olly-3791664.png';
+import HeroImg from '../public/images/pexels-olly-3791664.jpg';
 
 import { FaUserNurse } from 'react-icons/fa6';
 import { MdOutlineAssistWalker } from 'react-icons/md';
@@ -123,6 +123,7 @@ const Home = () => {
 						to live safely and comfortably in the place you love most — home.
 					</p>
 				</div>
+
 				<div
 					className="hero-image
 					animate__animated
@@ -153,18 +154,19 @@ const Home = () => {
 			{/* 3rd section */}
 			<Box
 				as="section"
-				marginInline={'auto'}
-				width={'100%'}
-				maxWidth={'1400px'}>
+				// marginInline={'auto'}
+				// width={'100%'}
+			>
 				<Box
-					padding={'2rem'}
 					width={'100%'}
 					bgColor={'#cca6c8'}
 					color={'#fff'}>
 					<Text
 						as="h2"
 						width={'80%'}
-						maxWidth={'1000px'}
+						maxWidth={'1440px'}
+						paddingBlock={'1rem'}
+						// paddingInline={'10rem'}
 						marginInline={'auto'}
 						textAlign={'center'}>
 						Elderly care and supported living services. With our team of
@@ -174,55 +176,57 @@ const Home = () => {
 						comfortable and effective way possible.
 					</Text>
 				</Box>
+			</Box>
+
+			<Box
+				as="section"
+				className="section-center live-in-services"
+				width={'85%'}
+				marginInline={'auto'}
+				boxShadow={'lg'}
+				padding={'2rem 3rem'}>
+				<Flex
+					gap={'2rem'}
+					justifyContent={'space-between'}
+					flexWrap={'wrap'}>
+					{services.map((service) => (
+						<Flex
+							key={service.id}
+							flexDirection={'column'}
+							justifyContent={'start'}
+							gap={'2rem'}
+							flexBasis={'calc(50% - 2rem)'}
+							alignItems={'center'}>
+							<Box
+								padding={'0.4rem'}
+								color={'#cca6c8'}>
+								{
+									<service.icon
+										fontSize={'6rem'}
+										width={'6rem'}
+										height={'6rem'}
+									/>
+								}
+							</Box>
+
+							<Text as={'h3'}>{service.title}</Text>
+							<Text
+								as="p"
+								textAlign={'justify'}>
+								{service.text}
+							</Text>
+						</Flex>
+					))}
+				</Flex>
 
 				<Box
-					width={'85%'}
-					marginInline={'auto'}
-					boxShadow={'lg'}
-					padding={'2rem 3rem'}>
-					<Flex
-						gap={'2rem'}
-						justifyContent={'space-between'}
-						flexWrap={'wrap'}>
-						{services.map((service) => (
-							<Flex
-								key={service.id}
-								flexDirection={'column'}
-								justifyContent={'start'}
-								gap={'2rem'}
-								flexBasis={'calc(50% - 2rem)'}
-								alignItems={'center'}>
-								<Box
-									padding={'0.4rem'}
-									color={'#cca6c8'}>
-									{
-										<service.icon
-											fontSize={'6rem'}
-											width={'6rem'}
-											height={'6rem'}
-										/>
-									}
-								</Box>
-
-								<Text as={'h3'}>{service.title}</Text>
-								<Text
-									as="p"
-									textAlign={'justify'}>
-									{service.text}
-								</Text>
-							</Flex>
-						))}
-					</Flex>
-
-					<Box
-						textAlign={'center'}
-						marginTop={'2rem'}>
-						<Button
-							bg={'#cca6c8'}
-							color={'#fff'}>
-							<Link href={'/services'}>Our Services</Link>
-						</Button>
-					</Box>
+					textAlign={'center'}
+					marginTop={'2rem'}>
+					<Button
+						bg={'#cca6c8'}
+						color={'#fff'}>
+						<Link href={'/services'}>Our Services</Link>
+					</Button>
 				</Box>
 			</Box>
 		</div>
