@@ -1,5 +1,6 @@
 import { Box, Button, Flex, Text } from '@chakra-ui/react';
-import aboutHeroImg from '../../public/images/pexels-kampus-7551667.png';
+// import aboutHeroImg from '../../public/images/pexels-kampus-7551667.jpg';
+import aboutHeroImg from '../../public/images/pexels-matthiaszomer-339620.webp';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -78,9 +79,11 @@ const About = () => {
 	return (
 		<main>
 			<section className="about-hero">
-				<article>
+				<article className="about-img">
 					<Image
-						className="about-img"
+						width={'auto'}
+						height={'auto'}
+						className="img"
 						src={aboutHeroImg}
 						alt="Eldery man with carer"
 					/>
@@ -90,7 +93,7 @@ const About = () => {
 				<section className="our-mission">
 					<h2>Mission</h2>
 					<div className="divider"></div>
-					<article className="mission">
+					<article className="mission section-center">
 						<h3>
 							Our mission is to provide exceptional, compassionate care that
 							enables individuals to live comfortably and independently in their
@@ -102,7 +105,7 @@ const About = () => {
 			</Box>
 			<section className="our-values">
 				<Box boxShadow={'lg'}>
-					<article className="values">
+					<article className="values section-center">
 						<h2>Our Values</h2>
 						<div className="divider"></div>
 						<div className="values-container">
@@ -136,33 +139,42 @@ const About = () => {
 					</p>
 				</article>
 			</section>
-			<section className="about-section">
+			<Box
+				as="section"
+				className="about-section">
 				<h2>Let us take care of your loved one</h2>
-				<article className="about-info">
-					<p>
-						At Superb Care Services, we provide reliable and affordable live-in
-						care services for clients across and around the South East.
-					</p>
-					<p>
-						As your trusted care provider since 2018, our carer/nursing staff
-						guarantee personalized attention to all your health and related
-						needs.
-					</p>
-					<p>
-						Our clients are our priority and our services are tailored to suit
-						every need. We offer extensive person-centred care and support
-						services to ensure their comfort.
-					</p>
-				</article>
-				{/* <div> */}
-				<Button
-					className="btn"
+				<Box
+					boxShadow={'lg'}
+					width={'80%'}
 					marginInline={'auto'}
-					color={'#fff'}>
-					<Link href="/contact">Contact Us</Link>
-				</Button>
-				{/* </div> */}
-			</section>
+					paddingBlock={'3rem'}>
+					<article className="about-info section-center">
+						<p>
+							At Superb Care Services, we provide reliable and affordable
+							live-in care services for clients across and around the South
+							East.
+						</p>
+						<p>
+							As your trusted care provider since 2018, our carer/nursing staff
+							guarantee personalized attention to all your health and related
+							needs.
+						</p>
+						<p>
+							Our clients are our priority and our services are tailored to suit
+							every need. We offer extensive person-centred care and support
+							services to ensure their comfort.
+						</p>
+					</article>
+					{/* <div> */}
+					<Button
+						className="btn"
+						marginInline={'auto'}
+						color={'#fff'}>
+						<Link href="/contact">Contact Us</Link>
+					</Button>
+					{/* </div> */}
+				</Box>
+			</Box>
 			<section className="faqs">
 				<div className="section-title">
 					<h3>frequently asked questions</h3>
@@ -176,7 +188,7 @@ const About = () => {
 						provide peace of mind every step of the way.
 					</p>
 				</div>
-				<div className="faqs-container">
+				<div className="faqs-container section-center">
 					{accordions.map((accordion) => (
 						<AccordionComponent
 							key={accordion.id}

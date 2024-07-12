@@ -1,5 +1,5 @@
 import { Box, Flex, Text } from '@chakra-ui/react';
-import Logo from '../../public/images/Logo - Superb Care.jpg';
+import Logo from '../../public/images/Logo - Superb Care.webp';
 import Image from 'next/image';
 import Link from 'next/link';
 // import '../globals.css';
@@ -14,6 +14,7 @@ const Navbar = () => {
 			top={0}
 			right={0}
 			height={'4.5rem'}
+			width="auto"
 			marginBottom={'1rem'}
 			justify={'space-between'}
 			align={'center'}

@@ -1,10 +1,10 @@
 import { Box } from '@chakra-ui/react';
-import servicesHeroImg from '../../public/images/pexels-kampus-7551661.png';
-import memoryCareImg from '../../public/images/pexels-jsme-mila-523821574-18459206.png';
-import assistedLivingImg from '../../public/images/raychan-yk7F8bdD0eU-unsplash.png';
-import respiteCareImg from '../../public/images/pexels-olly-3768146.png';
-import skilledNursingImg from '../../public/images/pexels-rdne-6129159.png';
-import hospiceCareImg from '../../public/images/ai-generated-8299432_1280.png';
+import servicesHeroImg from '../../public/images/pexels-kampus-7551661.webp';
+import memoryCareImg from '../../public/images/pexels-jsme-mila-523821574-18459206.webp';
+import assistedLivingImg from '../../public/images/raychan-yk7F8bdD0eU-unsplash.webp';
+import respiteCareImg from '../../public/images/pexels-olly-3768146.webp';
+import skilledNursingImg from '../../public/images/pexels-rdne-6129159.webp';
+import hospiceCareImg from '../../public/images/ai-generated-8299432_1280.webp';
 import Image from 'next/image';
 import { MdAssistWalker } from 'react-icons/md';
 import { LiaUserNurseSolid } from 'react-icons/lia';
@@ -51,7 +51,10 @@ const Services = () => {
 						<div className="single-service-header">
 							<h3>Assisted Living</h3>
 							<Image
+								width={'auto'}
+								height={'auto'}
 								src={assistedLivingImg}
+								loading="lazy"
 								alt=""
 								className="single-service-header-img"
 							/>
@@ -73,6 +76,9 @@ const Services = () => {
 						<div className="single-service-header">
 							<h3>Memory Care</h3>
 							<Image
+								width={'auto'}
+								height={'auto'}
+								loading="lazy"
 								src={memoryCareImg}
 								alt=""
 								className="single-service-header-img"
@@ -88,10 +94,13 @@ const Services = () => {
 							fulfilling lives.
 						</p>
 					</article>
-					<artice className="single-service">
+					<article className="single-service">
 						<div className="single-service-header">
 							<h3>Respite Care</h3>
 							<Image
+								width={'auto'}
+								height={'auto'}
+								loading="lazy"
 								src={respiteCareImg}
 								alt=""
 								className="single-service-header-img"
@@ -105,11 +114,14 @@ const Services = () => {
 							for a few days, weeks, or longer, families can trust that their
 							loved ones are in capable and caring hands.
 						</p>
-					</artice>
+					</article>
 					<article className="single-service">
 						<div className="single-service-header">
 							<h3>Skilled Nursing Care</h3>
 							<Image
+								width={'auto'}
+								height={'auto'}
+								loading="lazy"
 								src={skilledNursingImg}
 								alt=""
 								className="single-service-header-img"
@@ -128,6 +140,9 @@ const Services = () => {
 						<div className="single-service-header">
 							<h3>Hospice Care</h3>
 							<Image
+								width={'auto'}
+								height={'auto'}
+								loading="lazy"
 								src={hospiceCareImg}
 								alt=""
 								className="single-service-header-img"

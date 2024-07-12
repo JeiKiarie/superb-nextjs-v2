@@ -1,4 +1,5 @@
-import HeroImg from '../public/images/pexels-olly-3791664.jpg';
+// import HeroImg from '../public/images/pexels-olly-3791664.webp';
+import HeroImg from '../public/images/pexels-jsme-mila-523821574-18459193.webp';
 
 import { FaUserNurse } from 'react-icons/fa6';
 import { MdOutlineAssistWalker } from 'react-icons/md';
@@ -124,16 +125,19 @@ const Home = () => {
 					</p>
 				</div>
 
-				<div
+				<Box
 					className="hero-image
 					animate__animated
 					animate__slideInUp">
 					<Image
+						width="auto"
+						height="auto"
+						layout="responsive"
 						className="img"
 						src={HeroImg}
 						alt="hero"
 					/>
-				</div>
+				</Box>
 
 				{/* <div className="scroll-link animate__animated animate__slideInDown animate__infinite infinite">
 					<FaArrowDownLong />
@@ -183,6 +187,7 @@ const Home = () => {
 				className="section-center live-in-services"
 				width={'85%'}
 				marginInline={'auto'}
+				marginBottom={'2rem'}
 				boxShadow={'lg'}
 				padding={'2rem 3rem'}>
 				<Flex

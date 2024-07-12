@@ -25,6 +25,8 @@ const AccordionComponent = ({ accordions, header, details }) => {
 					className="accordion-summary">
 					<Typography
 						variant="h4"
+						fontSize={'1.5rem'}
+						fontFamily={'inherit'}
 						fontWeight={'bold'}>
 						{header}
 					</Typography>
