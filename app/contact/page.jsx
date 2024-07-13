@@ -24,7 +24,7 @@ const Contact = () => {
 					color={'#fff'}
 					bgColor={'#cca6c8'}
 					paddingBlock={'1.5rem'}
-					paddingInline={'6rem'}>
+					paddingInline={'2rem'}>
 					<Text as={'h1'}>Reach out to us.</Text>
 					<Text as={'h3'}>
 						We would love to hear from you! Please take a moment and fill in the
