@@ -1,7 +1,7 @@
-import ContactForm from '@app/components/form';
 import { Box, Flex, Text } from '@chakra-ui/react';
 import Image from 'next/image';
 import contactImg from '@public/images/pexels-jsme-mila-523821574-18429371.webp';
+import ContactForm from '@app/components/ContactForm';
 
 const Contact = () => {
 	return (
@@ -28,7 +28,7 @@ const Contact = () => {
 					<Text as={'h1'}>Reach out to us.</Text>
 					<Text as={'h3'}>
 						We would love to hear from you! Please take a moment and fill in the
-						form and we will contact you immediately.
+						form. We will contact you immediately.
 					</Text>
 				</Box>
 			</Box>
@@ -43,9 +43,9 @@ const Contact = () => {
 						<Text as={'h4'}>Address</Text>
 					</Box>
 				</Flex>
-				<Flex flexBasis={'50%'}>
+				<Box flexBasis={'50%'}>
 					<ContactForm />
-				</Flex>
+				</Box>
 			</Flex>
 
 			{/*  */}

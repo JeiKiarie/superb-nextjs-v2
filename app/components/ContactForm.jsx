@@ -54,9 +54,11 @@ export default function ContactForm() {
 			<div className="contact-form">
 				<div className="form-container">
 					<form onSubmit={submit}>
-						<div>
-							<div className="first-name">
-								<label htmlFor="firstName">First Nam</label>
+						<Flex flexDirection={'column'}>
+							<div
+								justifyContent={'space-between'}
+								className="first-name">
+								<label htmlFor="firstName">First Name</label>
 								<input
 									id="firstName"
 									type="text"
@@ -86,9 +88,11 @@ export default function ContactForm() {
 								/>
 							</div>
 							<div className="message">
-								<label htmlFor="message">M</label>
+								<label htmlFor="message">Message</label>
 								<textarea
 									id="message"
+									cols="33"
+									rows="5"
 									value={message}
 									onChange={(e) => setMessage(e.target.value)}
 								/>
@@ -99,7 +103,7 @@ export default function ContactForm() {
 								className="btn submit-button">
 								Submit
 							</button>
-						</div>
+						</Flex>
 					</form>
 				</div>
 			</div>
