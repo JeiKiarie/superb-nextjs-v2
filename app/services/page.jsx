@@ -76,9 +76,11 @@ const Services = () => {
 						<div className="single-service-header">
 							<h3>Memory Care</h3>
 							<Image
-								width={'auto'}
-								height={'auto'}
+								width={1300}
+								height={1300}
 								loading="lazy"
+								// objectFit="cover"
+								// layout="responsive"
 								src={memoryCareImg}
 								alt=""
 								className="single-service-header-img"

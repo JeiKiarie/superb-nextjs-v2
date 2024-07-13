@@ -1,23 +1,55 @@
+import ContactForm from '@app/components/form';
 import { Box, Flex, Text } from '@chakra-ui/react';
+import Image from 'next/image';
+import contactImg from '@public/images/pexels-jsme-mila-523821574-18429371.webp';
 
 const Contact = () => {
 	return (
-		<Box
-			as="section"
-			height={'calc(100vh - 9rem)'}
-			marginTop={'9rem'}>
-			<Text as={'h1'}>
-				We would love to hear from you! Please fill in the form and we will
-				contact you immediately.
-			</Text>
-			<Flex as={'article'}>
-				<Flex flexDirection={'column'}>
+		<main>
+			<Box
+				as="section"
+				className="contact-hero">
+				<Image
+					className="contact-image"
+					// layout="responsive"
+					width={1000}
+					height={1000}
+					src={contactImg}
+					alt=""
+				/>
+			</Box>
+			<Box as="section">
+				<Box
+					className="section-title"
+					color={'#fff'}
+					bgColor={'#cca6c8'}
+					paddingBlock={'1.5rem'}
+					paddingInline={'6rem'}>
+					<Text as={'h1'}>Reach out to us.</Text>
+					<Text as={'h3'}>
+						We would love to hear from you! Please take a moment and fill in the
+						form and we will contact you immediately.
+					</Text>
+				</Box>
+			</Box>
+			<Flex
+				justifyContent={'space-between'}
+				as={'article'}
+				className="section-center contact-address">
+				<Flex
+					flexDirection={'column'}
+					flexBasis={'50%'}>
 					<Box>
-						<Text as={'h2'}>Contact</Text>
+						<Text as={'h4'}>Address</Text>
 					</Box>
 				</Flex>
+				<Flex flexBasis={'50%'}>
+					<ContactForm />
+				</Flex>
 			</Flex>
-		</Box>
+
+			{/*  */}
+		</main>
 	);
 };
 
