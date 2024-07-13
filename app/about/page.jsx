@@ -177,7 +177,7 @@ const About = () => {
 			</Box>
 			<section className="faqs">
 				<div className="section-title">
-					<h3>frequently asked questions</h3>
+					<h3>Frequently Asked Questions</h3>
 					<div className="divider"></div>
 					<p>
 						Have questions about our services, amenities, costs, insurance
