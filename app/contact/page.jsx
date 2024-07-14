@@ -8,6 +8,7 @@ import { MdEmail } from 'react-icons/md';
 import EmailIcon from '@mui/icons-material/Email';
 import { BiEnvelope } from 'react-icons/bi';
 import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
+import { PiBuildingOfficeFill } from 'react-icons/pi';
 
 const Contact = () => {
 	return (
@@ -60,6 +61,17 @@ const Contact = () => {
 							<Text as={'h3'}>Office</Text>
 						</Box>
 
+						<Flex
+							fontSize={'2rem'}
+							gap={'1rem'}
+							alignItems={'center'}>
+							<Text
+								as={'i'}
+								color={'#cca6c8'}>
+								<i>{<PiBuildingOfficeFill />}</i>
+							</Text>
+							<p>Office Hours: 09.00 - 17.00 hours</p>
+						</Flex>
 						<Flex
 							fontSize={'2rem'}
 							gap={'1rem'}
