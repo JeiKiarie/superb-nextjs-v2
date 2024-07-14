@@ -5,6 +5,9 @@ import ContactForm from '@app/components/ContactForm';
 import { FaEnvelope, FaLocationDot } from 'react-icons/fa6';
 import { FaPhoneVolume } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
+import EmailIcon from '@mui/icons-material/Email';
+import { BiEnvelope } from 'react-icons/bi';
+import PhoneInTalkIcon from '@mui/icons-material/PhoneInTalk';
 
 const Contact = () => {
 	return (
@@ -48,7 +51,7 @@ const Contact = () => {
 					</Box>
 
 					<Flex
-						fontSize={'1.5rem'}
+						fontSize={'2rem'}
 						gap={'1rem'}
 						alignItems={'center'}>
 						<Text
@@ -59,7 +62,7 @@ const Contact = () => {
 						<p>Castle Hill House, 12 Castle Hill, Windsor, SL4 1PD</p>
 					</Flex>
 					<Flex
-						fontSize={'1.5rem'}
+						fontSize={'2rem'}
 						gap={'1rem'}
 						alignItems={'center'}>
 						<Text
@@ -71,7 +74,7 @@ const Contact = () => {
 					</Flex>
 
 					<Flex
-						fontSize={'1.5rem'}
+						fontSize={'2rem'}
 						gap={'1rem'}
 						alignItems={'center'}>
 						<Text
