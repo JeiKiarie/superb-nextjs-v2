@@ -54,7 +54,10 @@ export default function ContactForm() {
 			<div className="contact-form">
 				<div className="form-container">
 					<form onSubmit={submit}>
-						<Flex flexDirection={'column'}>
+						<Flex
+							paddingTop={'0.5rem'}
+							paddingBottom={'1rem'}
+							flexDirection={'column'}>
 							<div
 								// justifyContent={'space-between'}
 								className="first-name">
