@@ -56,7 +56,7 @@ export default function ContactForm() {
 					<form onSubmit={submit}>
 						<Flex flexDirection={'column'}>
 							<div
-								justifyContent={'space-between'}
+								// justifyContent={'space-between'}
 								className="first-name">
 								<label htmlFor="firstName">First Name</label>
 								<input
