@@ -46,7 +46,7 @@ export default function ContactForm() {
 	}
 
 	if (submitted) {
-		return <p>We've received your message, thank you for contacting us!</p>;
+		return <p>We have received your message, thank you for contacting us!</p>;
 	}
 
 	return (
