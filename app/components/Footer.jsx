@@ -8,7 +8,6 @@ const Footer = () => {
 		<Box
 			as="section"
 			className="footer"
-			minHeight={'30rem'}
 			paddingBlock={'2rem'}
 			marginBottom={'0'}
 			bg={'#cca6c8'}>
@@ -21,9 +20,10 @@ const Footer = () => {
 						<Box>
 							<Text
 								fontSize="1.8rem"
-								fontWeight={700}
+								fontWeight={600}
 								as="h1"
 								color="#51649F"
+								textAlign={'center'}
 								marginBottom={'2rem'}>
 								SUPERB CARE SERVICES LTD
 							</Text>
@@ -140,13 +140,15 @@ const Footer = () => {
 					<Flex
 						as={'article'}
 						justify={'center'}
-						align={'center'}
+						flexWrap={'wrap'}
+						alignItems={'center'}
 						// minHeight={'10rem'}
-						textAlign={'center'}>
+						paddingInline={'2rem'}>
 						<Box>
 							<Text
 								as="p"
 								color={'#fff'}
+								textAlign={'center'}
 								fontSize={'1.4rem'}>
 								Copyright &copy; <span>{year}</span> Superb Care Services Ltd.
 								<Text as={'span'}> All rights reserved.</Text>

@@ -6,6 +6,8 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme';
+// import { useMediaQuery } from '@chakra-ui/media-query';
+import Sidebar from './components/Sidebar';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -16,13 +18,16 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
+	// const [isMobile] = useMediaQuery('(max-width: 1000px)');
 	return (
 		<html lang="en">
 			<body>
 				<AppRouterCacheProvider>
 					<ThemeProvider theme={theme}>
 						<Providers>
+							{/* {isMobile ? <Navbar /> : <Sidebar />} */}
 							<Navbar />
+
 							{children}
 							<Footer />
 						</Providers>

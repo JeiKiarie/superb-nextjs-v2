@@ -6,25 +6,9 @@ import Link from 'next/link';
 
 const Navbar = () => {
 	return (
-		<Flex
-			as="nav"
-			bgColor={'#fff'}
-			position="fixed"
-			left={0}
-			top={0}
-			right={0}
-			height={'4.5rem'}
-			width="auto"
-			marginBottom={'1rem'}
-			justify={'space-between'}
-			align={'center'}
-			boxShadow="md"
-			paddingInline="1rem"
-			zIndex={100}>
-			<Box>
-				<Flex
-					justifyContent={'center'}
-					alignItems={'center'}>
+		<nav className="navbar animate__animated animate__slideInDown">
+			<div className="logo">
+				<div>
 					<Link href="/">
 						<Image
 							src={Logo}
@@ -33,53 +17,27 @@ const Navbar = () => {
 							alt="superb care ltd logo"
 						/>
 					</Link>
-					<Text
-						fontSize="1.8rem"
-						fontWeight={700}
-						as="h1"
-						color="#51649F"
-						mt="0">
-						SUPERB CARE SERVICES LTD
-					</Text>
-				</Flex>
-			</Box>
-			<Box color="green.600">
-				<Flex
-					gap="3rem"
-					// color="#51649F"
-					color="#fff"
-					fontSize="1.5rem">
-					<Text>
-						<Link
-							href="/"
-							className="nav-link">
-							Home
-						</Link>
-					</Text>
-					<Text>
-						<Link
-							href="about"
-							className="nav-link">
-							About
-						</Link>
-					</Text>
-					<Text>
-						<Link
-							href="services"
-							className="nav-link">
-							Services
-						</Link>
-					</Text>
-					<Text>
-						<Link
-							href="contact"
-							className="contact-link">
-							Contact Us
-						</Link>
-					</Text>
-				</Flex>
-			</Box>
-		</Flex>
+				</div>
+				<h1>SUPERB CARE SERVICES LTD</h1>
+			</div>
+
+			<div>
+				<ul className="nav-links">
+					<li className="nav-link">
+						<Link href="/">Home</Link>
+					</li>
+					<li className="nav-link">
+						<Link href="about">About</Link>
+					</li>
+					<li className="nav-link">
+						<Link href="services">Services</Link>
+					</li>
+					<li className="contact-link">
+						<Link href="contact">Contact Us</Link>
+					</li>
+				</ul>
+			</div>
+		</nav>
 	);
 };
 

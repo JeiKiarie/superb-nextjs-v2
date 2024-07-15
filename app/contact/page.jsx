@@ -18,7 +18,6 @@ const Contact = () => {
 				className="contact-hero">
 				<Image
 					className="contact-image"
-					// layout="responsive"
 					width={1000}
 					height={1000}
 					src={contactImg}

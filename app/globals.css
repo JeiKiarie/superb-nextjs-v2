@@ -71,13 +71,62 @@ section {
 		width: 95vw;
 	}
 }
-nav {
+.navbar {
+	background-color: #fff;
+	position: sticky;
+	left: 0;
+	top: 0;
+	right: 0;
+	height: 4.5rem;
+	width: auto;
+	/* margin-bottom: 1rem; */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: all 1s ease-in;
+	/* boxShadow="md" */
+
+	padding-right: 0.5rem;
+	z-index: 100;
+
 	width: 100%;
 	background: linear-gradient(
 		to right,
 		rgb(255, 255, 255) 25%,
 		/* rgb(249, 248, 250) 35%, */ rgb(204, 166, 200) 75%
 	);
+}
+.navbar .logo {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.navbar .logo h1 {
+	font-size: 1.8rem;
+	font-weight: 600;
+	color: #51649f;
+	margin-top: 0;
+}
+@media screen and (max-width: 700px) {
+	.navbar .logo h1 {
+		font-size: 1.5rem;
+	}
+}
+.nav-links {
+	display: flex;
+	gap: 3rem;
+	/* color="#51649F" */
+	color: fff;
+	font-size: 1.2rem;
+}
+.nav-links li {
+	list-style: none;
+}
+@media screen and (max-width: 1000px) {
+	.nav-links {
+		display: none;
+	}
 }
 .nav-link {
 	transition: all 0.3s ease-in;
@@ -111,7 +160,7 @@ nav {
 	padding-bottom: 0.5rem;
 }
 .hero {
-	margin-top: 5rem;
+	/* margin-top: 5rem; */
 	width: 100%;
 	margin-inline: auto;
 }
@@ -133,12 +182,35 @@ nav {
 	padding-inline: 10rem;
 	text-align: center;
 }
+@media screen and (max-width: 1000px) {
+	.hero-text h1 {
+		padding-inline: 5rem;
+	}
+}
+@media screen and (max-width: 768px) {
+	.hero-text h1 {
+		padding-inline: 1rem;
+		/* text-align: justify; */
+		font-size: 2rem;
+	}
+	.hero-text .divider {
+		display: none;
+	}
+}
+
 .hero-text p {
 	margin-inline: auto;
 	/* padding-inline: 6rem; */
 	width: 80%;
 	max-width: 1440px;
 	text-align: center;
+}
+@media screen and (max-width: 768px) {
+	.hero-text p {
+		width: 100%;
+		/* text-align: justify; */
+		padding-inline: 1rem;
+	}
 }
 .hero-text .divider {
 	height: 0.5rem;
@@ -196,6 +268,12 @@ nav {
 	max-width: 1000px;
 	z-index: 20;
 }
+@media screen and (max-width: 768px) {
+	.home-subsection h4 {
+		font-size: 2.2rem;
+		padding-inline: 1rem;
+	}
+}
 .home-subsection::before {
 	content: '';
 	position: absolute;
@@ -204,6 +282,21 @@ nav {
 	width: 100%;
 	height: 100%;
 	background: rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 768px) {
+	.live-in-services-header {
+		width: 100%;
+	}
+	.live-in-services-header h2 {
+		padding-inline: 1rem;
+		font-size: 1.8rem;
+		width: 100%;
+	}
+}
+@media screen and (max-width: 1000px) {
+	.live-in-services-container .single-service {
+		flex-basis: 100%;
+	}
 }
 .about-hero {
 	/* height: 60vh; */

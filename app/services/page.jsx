@@ -80,7 +80,6 @@ const Services = () => {
 								height={1300}
 								loading="lazy"
 								// objectFit="cover"
-								// layout="responsive"
 								src={memoryCareImg}
 								alt=""
 								className="single-service-header-img"

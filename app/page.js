@@ -132,7 +132,6 @@ const Home = () => {
 					<Image
 						width="auto"
 						height="auto"
-						layout="responsive"
 						className="img"
 						src={HeroImg}
 						alt="hero"
@@ -158,6 +157,7 @@ const Home = () => {
 			{/* 3rd section */}
 			<Box
 				as="section"
+				className="live-in-services-header"
 				// marginInline={'auto'}
 				// width={'100%'}
 			>
@@ -191,11 +191,13 @@ const Home = () => {
 				boxShadow={'lg'}
 				padding={'2rem 3rem'}>
 				<Flex
+					className="live-in-services-container"
 					gap={'2rem'}
 					justifyContent={'space-between'}
 					flexWrap={'wrap'}>
 					{services.map((service) => (
 						<Flex
+							className="single-service"
 							key={service.id}
 							flexDirection={'column'}
 							justifyContent={'start'}
