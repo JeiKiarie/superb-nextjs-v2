@@ -6,9 +6,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
 	return (
-		<nav
-			className="navbar"
-			style={{ position: 'fixed', top: 0, left: 0, right: 0 }}>
+		<nav className="navbar">
 			<div className="logo">
 				<div>
 					<Link href="/">
