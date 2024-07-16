@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
 	return (
-		<nav className="navbar animate__animated animate__slideInDown">
+		<nav className="navbar">
 			<div className="logo">
 				<div>
 					<Link href="/">
