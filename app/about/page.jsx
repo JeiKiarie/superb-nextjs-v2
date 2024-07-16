@@ -145,10 +145,10 @@ const About = () => {
 				<h2>Let us take care of your loved one</h2>
 				<Box
 					boxShadow={'lg'}
-					width={'80%'}
+					// width={'80%'}
 					marginInline={'auto'}
-					paddingBlock={'3rem'}>
-					<article className="about-info section-center">
+					paddingBlock={'2rem'}>
+					<article className="about-info">
 						<p>
 							At Superb Care Services, we provide reliable and affordable
 							live-in care services for clients across and around the South

@@ -50,66 +50,66 @@ export default function ContactForm() {
 	}
 
 	return (
-		<article className="form">
-			<div className="contact-form">
-				<div className="form-container">
-					<form onSubmit={submit}>
-						<Flex
-							paddingTop={'0.5rem'}
-							paddingBottom={'1rem'}
-							flexDirection={'column'}>
-							<div
-								// justifyContent={'space-between'}
-								className="first-name">
-								<label htmlFor="firstName">First Name</label>
-								<input
-									id="firstName"
-									type="text"
-									value={firstName}
-									onChange={(e) => setFirstName(e.target.value)}
-									required
-								/>
-							</div>
-							<div className="last-name">
-								<label htmlFor="lastName">Last Name</label>
-								<input
-									id="lastName"
-									type="text"
-									value={lastName}
-									onChange={(e) => setLastName(e.target.value)}
-									required
-								/>
-							</div>
-							<div className="email">
-								<label htmlFor="email">Email</label>
-								<input
-									id="email"
-									type="email"
-									value={email}
-									onChange={(e) => setEmail(e.target.value)}
-									required
-								/>
-							</div>
-							<div className="message">
-								<label htmlFor="message">Message</label>
-								<textarea
-									id="message"
-									cols="33"
-									rows="5"
-									value={message}
-									onChange={(e) => setMessage(e.target.value)}
-								/>
-							</div>
+		<article className="contact-form">
+			{/* <div className="contact-form"> */}
+			<div className="form-container">
+				<form onSubmit={submit}>
+					<Flex
+						paddingTop={'0.5rem'}
+						paddingBottom={'1rem'}
+						flexDirection={'column'}>
+						<div
+							// justifyContent={'space-between'}
+							className="first-name">
+							<label htmlFor="firstName">First Name</label>
+							<input
+								id="firstName"
+								type="text"
+								value={firstName}
+								onChange={(e) => setFirstName(e.target.value)}
+								required
+							/>
+						</div>
+						<div className="last-name">
+							<label htmlFor="lastName">Last Name</label>
+							<input
+								id="lastName"
+								type="text"
+								value={lastName}
+								onChange={(e) => setLastName(e.target.value)}
+								required
+							/>
+						</div>
+						<div className="email">
+							<label htmlFor="email">Email</label>
+							<input
+								id="email"
+								type="email"
+								value={email}
+								onChange={(e) => setEmail(e.target.value)}
+								required
+							/>
+						</div>
+						<div className="message">
+							<label htmlFor="message">Message</label>
+							<textarea
+								id="message"
+								cols="33"
+								rows="5"
+								value={message}
+								onChange={(e) => setMessage(e.target.value)}
+							/>
+						</div>
 
-							<button
-								type="submit"
-								className="btn submit-button">
-								Submit
-							</button>
-						</Flex>
-					</form>
-				</div>
+						<button
+							type="submit"
+							className="btn submit-button">
+							Submit
+						</button>
+					</Flex>
+				</form>
 			</div>
+			{/* </div> */}
 		</article>
 	);
 }

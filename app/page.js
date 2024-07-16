@@ -1,5 +1,5 @@
 // import HeroImg from '../public/images/pexels-olly-3791664.webp';
-import HeroImg from '../public/images/pexels-jsme-mila-523821574-18459193.webp';
+import HeroImg from '../public/images/pexels-jsme-mila-523821574-18459193.jpg';
 
 import { FaUserNurse } from 'react-icons/fa6';
 import { MdOutlineAssistWalker } from 'react-icons/md';
@@ -114,9 +114,19 @@ const Home = () => {
 						className="divider animate__animated
 					animate__fadeIn"
 					/>
-					<p
-						className="animate__animated
-					animate__slideInLeft">
+					<div
+						className="hero-image
+					animate__animated
+					animate__slideInUp">
+						<Image
+							width="auto"
+							height="auto"
+							className="img"
+							src={HeroImg}
+							alt="hero"
+						/>
+					</div>
+					<p>
 						We provide quality care for elderly people and people who need
 						fulltime support to cope with all kinds of physical and health
 						challenges in their day to day lives. Our mission is to provide
@@ -124,19 +134,6 @@ const Home = () => {
 						to live safely and comfortably in the place you love most — home.
 					</p>
 				</div>
-
-				<Box
-					className="hero-image
-					animate__animated
-					animate__slideInUp">
-					<Image
-						width="auto"
-						height="auto"
-						className="img"
-						src={HeroImg}
-						alt="hero"
-					/>
-				</Box>
 
 				{/* <div className="scroll-link animate__animated animate__slideInDown animate__infinite infinite">
 					<FaArrowDownLong />

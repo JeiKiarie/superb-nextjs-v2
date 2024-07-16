@@ -18,8 +18,8 @@ const Contact = () => {
 				className="contact-hero">
 				<Image
 					className="contact-image"
-					width={1000}
-					height={1000}
+					width={'auto'}
+					height={'auto'}
 					src={contactImg}
 					alt=""
 				/>
@@ -27,9 +27,9 @@ const Contact = () => {
 			<Box as="section">
 				<Box
 					className="section-title"
-					color={'#fff'}
-					bgColor={'#cca6c8'}
-					paddingBlock={'1.5rem'}
+					// color={'#fff'}
+					// bgColor={'#cca6c8'}
+					// paddingBlock={'1.5rem'}
 					paddingInline={'2rem'}>
 					<Box
 						maxWidth={'1440px'}
@@ -53,9 +53,11 @@ const Contact = () => {
 					as={'article'}
 					className="contact-address">
 					<Flex
+						className="office-address"
 						flexDirection={'column'}
 						gap={'2rem'}
-						flexBasis={'50%'}>
+						// flexBasis={'50%'}
+					>
 						<Box>
 							<Text as={'h3'}>Office</Text>
 						</Box>
@@ -106,7 +108,10 @@ const Contact = () => {
 							<p>info@superbcareservices.co.uk</p>
 						</Flex>
 					</Flex>
-					<Box flexBasis={'50%'}>
+					<Box
+						className="form"
+						// flexBasis={'50%'}
+					>
 						<ContactForm />
 					</Box>
 				</Flex>
@@ -120,9 +125,9 @@ const Contact = () => {
 						width="100%"
 						height="100%"
 						// style="border:0;"
-						allowfullscreen=""
+						allowFullScreen=""
 						loading="lazy"
-						referrerpolicy="no-referrer-when-downgrade"></iframe>
+						referrerPolicy="no-referrer-when-downgrade"></iframe>
 				</Box>
 			</Box>
 			{/*  */}
