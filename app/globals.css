@@ -73,7 +73,7 @@ section {
 }
 .navbar {
 	background-color: #fff;
-	position: sticky;
+	position: fixed;
 	left: 0;
 	top: 0;
 	right: 0;
