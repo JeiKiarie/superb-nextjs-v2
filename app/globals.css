@@ -643,7 +643,7 @@ section {
 	display: flex;
 	/* gap: 1rem; */
 	justify-content: space-between;
-	padding: 0.5rem !important;
+	/* padding: 0.5rem !important; */
 }
 .contact-address .office-address,
 .contact-address .form {
