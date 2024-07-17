@@ -44,6 +44,7 @@ const Contact = () => {
 			</Box>
 			<Box
 				as="section"
+				className="contact-container"
 				bgColor={'#f9f8fa'}>
 				<Flex
 					padding={'2rem'}
@@ -119,6 +120,7 @@ const Contact = () => {
 			<Box as="section">
 				<Box
 					as="article"
+					className="map"
 					height={'600px'}>
 					<iframe
 						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.665846005358!2d-0.609198124191054!3d51.48264761251231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48767ae4a576aaab%3A0x3551638a20b9030a!2sCastle%20Hill%20House!5e0!3m2!1sen!2ske!4v1720967565567!5m2!1sen!2ske"

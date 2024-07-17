@@ -7,12 +7,16 @@
 	margin: 0;
 	padding: 0;
 }
+@media screen and (max-width: 768px) {
+	html {
+		/* overflow: hidden; */
+	}
+}
 body {
-	width: 100%;
+	/* width: 100%; */
 	margin-inline: auto;
 	/* overflow-x: hidden; */
 }
-
 h1 {
 	font-size: 2.5rem;
 }
@@ -62,21 +66,21 @@ section {
 	margin-bottom: 1rem;
 }
 .section-center {
-	width: 90vw;
+	width: 90%;
 	margin: 0 auto;
 	max-width: 1440px;
 }
 @media screen and (min-width: 992px) {
 	.section-center {
-		width: 95vw;
+		width: 95%;
 	}
 }
 .navbar {
-	background-color: #fff;
+	/* background-color: #fff; */
 	position: fixed;
-	left: 0;
 	top: 0;
-	right: 0;
+	/* left: 0;
+	right: 0; */
 	height: 4.8rem;
 	width: auto;
 	/* margin-bottom: 1rem; */
@@ -87,8 +91,7 @@ section {
 	/* boxShadow="md" */
 
 	padding-right: 0.5rem;
-	z-index: 30;
-
+	z-index: 999;
 	width: 100%;
 	background: linear-gradient(
 		to right,
@@ -99,10 +102,7 @@ section {
 @media screen and (max-width: 768px) {
 	.navbar {
 		padding-right: 0;
-		position: fixed;
-		top: 0;
-		left: 0;
-		right: 0;
+		/* padding-top: 2rem; */
 	}
 }
 
@@ -329,7 +329,9 @@ section {
 	height: 100%;
 }
 .about-img .img {
+	-o-object-fit: cover;
 	object-fit: cover;
+	-o-object-position: center;
 	object-position: center;
 	height: 100%;
 }
@@ -582,7 +584,9 @@ section {
 }
 .services-img {
 	/* height: 50vh; */
+	-o-object-fit: cover;
 	object-fit: cover;
+	-o-object-position: center;
 	object-position: center;
 }
 .services-container h2 {
@@ -602,7 +606,9 @@ section {
 }
 .single-service-header-img {
 	height: 25rem;
+	-o-object-fit: cover;
 	object-fit: cover;
+	-o-object-position: center;
 	object-position: center;
 	border-radius: 10px;
 }
@@ -623,13 +629,21 @@ section {
 .contact-image {
 	width: 100%;
 	height: 100%;
+	-o-object-fit: cover;
 	object-fit: cover;
+	-o-object-position: center;
 	object-position: center;
+}
+.contact-container {
+	width: 100%;
+	padding: 0;
+	overflow-x: hidden;
 }
 .contact-address {
 	display: flex;
-	gap: 1rem;
+	/* gap: 1rem; */
 	justify-content: space-between;
+	padding: 0.5rem !important;
 }
 .contact-address .office-address,
 .contact-address .form {
@@ -681,6 +695,13 @@ textarea {
 	border-radius: 4px;
 	font-size: 1rem;
 	cursor: pointer;
+}
+.map {
+	padding-inline: 1rem;
+}
+.footer {
+	/* overflow: hidden; */
+	width: 100%;
 }
 .footer-link a,
 .social-link {

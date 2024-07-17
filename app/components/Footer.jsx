@@ -13,13 +13,13 @@ const Footer = () => {
 			bg={'#cca6c8'}>
 			<Flex
 				flexDirection={'column'}
-				justifyContent={'space-around'}
+				// justifyContent={'space-between'}
 				alignItems={'center'}>
 				<Flex>
 					<Box>
 						<Box>
 							<Text
-								fontSize="1.8rem"
+								fontSize="1.5rem"
 								fontWeight={600}
 								as="h1"
 								color="#51649F"
@@ -39,9 +39,9 @@ const Footer = () => {
 						</Box>
 						<Box>
 							<Flex
-								justifyContent={'center'}
+								justifyContent={'space-between'}
 								alignItems={'center'}
-								gap="2rem"
+								// gap="2rem"
 								color="#51649F"
 								marginBottom={'1rem'}
 								fontSize="1.5rem">

@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
 	title: 'Superb Care Services Ltd',
+	meta: 'name="viewport "content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no""',
 	description:
 		'Elderly Home Care and Supported Living, Carers and Nursing Staffing Services',
 };
@@ -25,9 +26,7 @@ export default function RootLayout({ children }) {
 				<AppRouterCacheProvider>
 					<ThemeProvider theme={theme}>
 						<Providers>
-							{/* {isMobile ? <Navbar /> : <Sidebar />} */}
 							<Navbar />
-
 							{children}
 							<Footer />
 						</Providers>
