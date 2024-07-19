@@ -8,6 +8,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import theme from './theme';
 // import { useMediaQuery } from '@chakra-ui/media-query';
 import Sidebar from './components/Sidebar';
+import NavbarMui from './components/NavbarMui';
 
 const inter = Inter({ subsets: ['latin'] });
 

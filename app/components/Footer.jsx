@@ -107,14 +107,7 @@ const Footer = () => {
 											padding={'0.4rem'}>
 											<BsFacebook />
 										</Box>
-										{/* <IconButton
-								boxSize={10}
-								padding={'0.4rem'}
-								as={BsFacebook}
-								fontSize="1.5rem"
-								color={'#51649F'}
-								bg={'transparent'}
-							/> */}
+									
 									</Link>
 								</Box>
 								<Box fontSize="1.5rem">

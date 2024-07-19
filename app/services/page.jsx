@@ -22,15 +22,6 @@ const Services = () => {
 					<div
 						className="divider animate__animated
 					animate__fadeIn"></div>
-					<p
-						className="animate__animated
-					animate__slideInLeft">
-						We are a community dedicated to providing a nurturing and enriching
-						environment for our clients. With a deep understanding of the unique
-						needs and challenges that come with aging, we offer a range of
-						comprehensive services aimed at enhancing the quality of life for
-						every individual under our care.
-					</p>
 				</div>
 			</section>
 			<section className="services-img">
@@ -42,6 +33,17 @@ const Services = () => {
 						alt="Eldery man with carer"
 					/>
 				</article>
+			</section>
+			<section className="section-description">
+				<p
+					className="animate__animated
+					animate__slideInUp">
+					We are a community dedicated to providing a nurturing and enriching
+					environment for our clients. With a deep understanding of the unique
+					needs and challenges that come with aging, we offer a range of
+					comprehensive services aimed at enhancing the quality of life for
+					every individual under our care.
+				</p>
 			</section>
 			<section className="services-section">
 				<div className="services-container">
