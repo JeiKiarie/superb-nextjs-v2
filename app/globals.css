@@ -103,6 +103,15 @@ section {
 	padding-right: 0.5rem;
 	z-index: 999;
 }
+@media screen and (max-width: 768px) {
+	.home {
+		background: linear-gradient(
+			to right,
+			rgb(255, 255, 255) 40%,
+			rgb(204, 166, 200) 75%
+		);
+	}
+}
 .navbar {
 	/* background-color: #fff; */
 	/* width: 100%; */

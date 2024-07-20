@@ -213,7 +213,11 @@ const Home = () => {
 								}
 							</Box>
 
-							<Text as={'h3'}>{service.title}</Text>
+							<Text
+								as={'h3'}
+								textAlign={'center'}>
+								{service.title}
+							</Text>
 							<Text
 								as="p"
 								textAlign={'justify'}>
