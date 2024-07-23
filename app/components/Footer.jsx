@@ -83,7 +83,6 @@ const Footer = () => {
 								<Box fontSize="1.5rem">
 									<Link
 										href="#"
-										target="_blank"
 										// fontSize="4.3rem"
 										color={'#51649F'}
 										bg={'transparent'}>
@@ -97,7 +96,6 @@ const Footer = () => {
 								<Box fontSize="1.5rem">
 									<Link
 										href="#"
-										target="_blank"
 										fontSize="2.3rem"
 										color={'#51649F'}
 										bg={'transparent'}
@@ -112,7 +110,6 @@ const Footer = () => {
 								<Box fontSize="1.5rem">
 									<Link
 										href="#"
-										target="_blank"
 										fontSize="2.3rem"
 										color={'#51649F'}
 										bg={'transparent'}
