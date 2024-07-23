@@ -1,6 +1,7 @@
 'use client';
 
 import { Box, Flex } from '@chakra-ui/react';
+import { permanentRedirect, redirect } from 'next/navigation';
 import { useState } from 'react';
 
 export default function ContactForm() {
@@ -46,7 +47,9 @@ export default function ContactForm() {
 	}
 
 	if (submitted) {
-		return <p>We have received your message, thank you for contacting us!</p>;
+		// return <p>We have received your message, thank you for contacting us!</p>;
+		// redirect('/thank-you');
+		permanentRedirect('/thank-you');
 	}
 
 	return (
