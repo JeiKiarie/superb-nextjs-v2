@@ -17,7 +17,7 @@ export default function ContactForm() {
 		e.preventDefault();
 
 		// replace this with your own unique endpoint URL
-		fetch('https://formcarry.com/s/1s-zSV5_sXC', {
+		fetch('https://formcarry.com/s/y3E1LMY9xUR', {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
