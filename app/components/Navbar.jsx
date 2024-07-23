@@ -106,21 +106,21 @@ const Navbar = () => {
 					<ul className="social-icons">
 						<li>
 							<a
-								href="https://www.twitter.com/"
+								href="#"
 								target="_blank">
 								<BsTwitterX />
 							</a>
 						</li>
 						<li>
 							<a
-								href="https://www.facebook.com/"
+								href="#"
 								target="_blank">
 								<BsFacebook />
 							</a>
 						</li>
 						<li>
 							<a
-								href="https://www.instagram.com/"
+								href="#"
 								target="_blank">
 								<BsInstagram />
 							</a>

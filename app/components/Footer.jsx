@@ -82,7 +82,7 @@ const Footer = () => {
 								alignItems={'center'}>
 								<Box fontSize="1.5rem">
 									<Link
-										href="https://x.com/"
+										href="#"
 										target="_blank"
 										// fontSize="4.3rem"
 										color={'#51649F'}
@@ -96,7 +96,7 @@ const Footer = () => {
 								</Box>
 								<Box fontSize="1.5rem">
 									<Link
-										href="https://www.facebook.com/"
+										href="#"
 										target="_blank"
 										fontSize="2.3rem"
 										color={'#51649F'}
@@ -107,12 +107,11 @@ const Footer = () => {
 											padding={'0.4rem'}>
 											<BsFacebook />
 										</Box>
-									
 									</Link>
 								</Box>
 								<Box fontSize="1.5rem">
 									<Link
-										href="https://www.instagram.com/"
+										href="#"
 										target="_blank"
 										fontSize="2.3rem"
 										color={'#51649F'}
