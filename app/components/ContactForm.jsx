@@ -45,9 +45,9 @@ export default function ContactForm() {
 		return <p>{error}</p>;
 	}
 
-	// if (submitted) {
-	// 	return <p>We have received your message, thank you for contacting us!</p>;
-	// }
+	if (submitted) {
+		return <p>We have received your message, thank you for contacting us!</p>;
+	}
 
 	return (
 		<article className="contact-form">
