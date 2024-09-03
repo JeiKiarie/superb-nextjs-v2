@@ -23,6 +23,9 @@ export default function RootLayout({ children }) {
 	// const [isMobile] = useMediaQuery('(max-width: 1000px)');
 	return (
 		<html lang="en">
+			<head>
+				<title>Superb Care Services Ltd</title>
+			</head>
 			<body>
 				<AppRouterCacheProvider>
 					<ThemeProvider theme={theme}>
